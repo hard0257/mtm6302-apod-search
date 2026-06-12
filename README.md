@@ -1,20 +1,32 @@
-# mtm6302-apod-search
-## Assignment 2: Visual Mockup
+# NASA APOD Search - Static Prototype
 
-I created a visual mockup for my NASA APOD Search web application. The mockup shows the main screens of the app, including the home search page, favourites page, about APOD page, and an error state.
+## Assignment 3: Static Prototype
 
-### Design Choices
+For this assignment, I created a static prototype for my NASA APOD Search web app using HTML and CSS. The prototype is based on my visual mockup from Assignment 2 and includes the main screens of the app.
 
-I kept the design simple so users can easily understand how to use the app. The home screen has a date input and a search button. The favourites screen shows saved APOD images, and the error screen shows what happens when a user enters a future date.
+## Pages Created
 
-### Colour and Font Selection
+The prototype includes these pages:
 
-I used a space-themed design with dark colours, blue buttons, white cards, and clear text. The dark background matches the NASA and astronomy theme. Blue is used for main buttons, and red is used for the error message.
+* Home page
+* Search APOD page
+* Favourites page
+* About APOD page
 
-### Layout and Responsiveness
+The Home page allows users to understand how to search for an APOD image. The Search page shows the date input, search button, and an error message for a future date. The Favourites page shows saved APOD images, and the About page explains what the app does and the branding style.
 
-The mockup includes desktop, tablet, and mobile layouts. On desktop, the content has more space. On tablet and mobile, the layout is smaller and easier to scroll. This helps the app work better on different screen sizes.
+## Steps Taken
 
-### Usability and User Experience
+I started by creating separate HTML files for each page. Then I used CSS to match the layout, colours, spacing, buttons, and cards from my mockup. I also made the design responsive for desktop, tablet, and phone views. The navigation links allow users to move between the Home, Favourites, About APOD, and Search pages.
 
-The mockup improves usability by keeping the flow clear. Users can search for an APOD by date, view saved favourites, delete favourites, and understand errors easily. The navigation includes Home, Favourites, and About APOD so users can move through the app without confusion.
+## Resources Used
+
+I used my Assignment 2 visual mockup as the main reference. I also used space-themed images to match the NASA APOD style. The project was built with HTML and CSS.
+
+## Challenges Faced
+
+The main challenge was making the pages look similar to the mockup on different screen sizes. I adjusted the spacing, background images, cards, and navigation so the layout works better on desktop, tablet, and phone.
+
+## Final Notes
+
+This is a static prototype, so the buttons and forms are only for visual design. The main goal was to show how the app will look and how users will move through the pages.
