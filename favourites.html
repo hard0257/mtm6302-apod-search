@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favourites | NASA APOD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="favourites-page">
+
+  <div class="page-wrapper">
+
+    <header class="site-header favourites-page-header">
+      <nav class="navbar">
+        <h1 class="logo">NASA APOD</h1>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favourites.html" class="active">Favourites</a></li>
+          <li><a href="about.html">About APOD</a></li>
+        </ul>
+
+        <button class="menu-button" type="button" aria-label="Open menu">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="favourites-section">
+        <div class="favourites-content">
+          <h2>Saved Favourites</h2>
+
+          <p>
+            APOD images are shown here from local storage. Users can delete any favourite.
+          </p>
+
+          <div class="favourites-grid">
+
+            <article class="favourite-card">
+              <img src="images/nebula-star.jpg" alt="Nebula Near Saturn">
+              <h3>Nebula Near Saturn</h3>
+              <button type="button">Delete Favourite</button>
+            </article>
+
+            <article class="favourite-card">
+              <img src="images/blue-galaxy.jpg" alt="Blue Spiral Galaxy">
+              <h3>Blue Spiral Galaxy</h3>
+              <button type="button">Delete Favourite</button>
+            </article>
+
+            <article class="favourite-card">
+              <img src="images/nebula-clouds.jpg" alt="Nebula Clouds">
+              <h3>Nebula Clouds</h3>
+              <button type="button">Delete Favourite</button>
+            </article>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+</body>
+</html>
