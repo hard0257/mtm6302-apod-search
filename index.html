@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA APOD Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>NASA APOD Search</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#favourites">Favourites</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="section">
+      <div class="box">
+        <h2>Search Astronomy Picture of the Day</h2>
+
+        <p>Choose a date to see NASA's Astronomy Picture of the Day.</p>
+
+        <form id="searchForm">
+          <label for="dateInput">Choose Date</label>
+          <input type="date" id="dateInput" required>
+
+          <button type="submit">Search</button>
+        </form>
+
+        <p id="message"></p>
+      </div>
+
+      <div id="apodResult"></div>
+    </section>
+
+    <section id="favourites" class="section">
+      <div class="box">
+        <h2>Saved Favourites</h2>
+        <p>Saved APOD pictures will show here.</p>
+      </div>
+
+      <div id="favouritesList"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="box">
+        <h2>About This App</h2>
+
+        <p>
+          This app uses the NASA APOD API. The user can search for an APOD by date,
+          view the result, and save favourites using localStorage.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,32 +1,17 @@
-# NASA APOD Search - Static Prototype
+## Capstone Project - Part 4 Report
 
-## Assignment 3: Static Prototype
+For Part 4, I created the final working version of my NASA APOD Search web application.
 
-For this assignment, I created a static prototype for my NASA APOD Search web app using HTML and CSS. The prototype is based on my visual mockup from Assignment 2 and includes the main screens of the app.
+The app uses one HTML file, one CSS file, and one JavaScript file. The HTML file contains the main sections for Home, Favourites, and About. The CSS file is used to style the page and make it responsive for different screen sizes. The JavaScript file controls the API search, DOM updates, event listeners, and localStorage.
 
-## Pages Created
+I used the NASA APOD API with the Fetch API to get Astronomy Picture of the Day data by date. When the user chooses a date and submits the form, JavaScript prevents the page from refreshing and fetches the APOD data. The result is then shown on the page with the title, date, image or video, and explanation.
 
-The prototype includes these pages:
+I also added a favourites feature. Users can save an APOD to favourites, and the saved favourites are stored in localStorage. This means the favourites stay saved even after the page is refreshed. Users can also delete saved favourites.
 
-* Home page
-* Search APOD page
-* Favourites page
-* About APOD page
+Some challenges I faced were making the app work without page refreshes, checking future dates, displaying both images and videos, and saving favourites correctly in localStorage.
 
-The Home page allows users to understand how to search for an APOD image. The Search page shows the date input, search button, and an error message for a future date. The Favourites page shows saved APOD images, and the About page explains what the app does and the branding style.
-
-## Steps Taken
-
-I started by creating separate HTML files for each page. Then I used CSS to match the layout, colours, spacing, buttons, and cards from my mockup. I also made the design responsive for desktop, tablet, and phone views. The navigation links allow users to move between the Home, Favourites, About APOD, and Search pages.
-
-## Resources Used
-
-I used my Assignment 2 visual mockup as the main reference. I also used space-themed images to match the NASA APOD style. The project was built with HTML and CSS.
-
-## Challenges Faced
-
-The main challenge was making the pages look similar to the mockup on different screen sizes. I adjusted the spacing, background images, cards, and navigation so the layout works better on desktop, tablet, and phone.
-
-## Final Notes
-
-This is a static prototype, so the buttons and forms are only for visual design. The main goal was to show how the app will look and how users will move through the pages.
+Resources used:
+- NASA APOD API
+- MDN Web Docs for fetch()
+- MDN Web Docs for localStorage
+- Course notes on JavaScript, DOM manipulation, event listeners, and localStorage
